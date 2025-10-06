@@ -15,6 +15,6 @@ Copy the code exactly as is, make your modifications to fix the program, then su
 
 
 
-Print a poem 
+Print a poem assignment 
 
 Use the printf() statement to output a poem of your choice. Submit your program as a text file. 
