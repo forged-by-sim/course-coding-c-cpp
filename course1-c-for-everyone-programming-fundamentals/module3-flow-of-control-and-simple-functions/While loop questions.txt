@@ -1,0 +1,46 @@
+While loop questions
+
+
+1.
+
+while (i < 5){
+    i = i – 1;
+    printf(" i = %d", i);
+}
+
+
+If i starts off as 2 (assume int i = 2 declared at the beginning of the code) then...
+
+==> printf will print continuously
+
+
+
+2.
+
+while (i < 5){
+    i = i – 1;
+    printf(" i = %d", i);
+}
+
+
+If i starts off as 2 (assume int i = 2 declared at the beginning of the code) and the loop statement was i = i +1; printf will print ...
+
+==> i = 3 i = 4 i = 5
+
+
+
+3.
+
+while (i < 5){
+    i = i – 1;
+    printf(" i = %d", i);
+}
+
+
+If i starts off as 15 (assume int i = 15 declared at the beginning of the code), printf will print ...
+
+==> will not print
+
+
+
+

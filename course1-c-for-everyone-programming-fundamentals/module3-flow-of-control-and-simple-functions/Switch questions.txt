@@ -1,0 +1,40 @@
+Switch questions
+
+ 
+switch(i){
+
+
+
+       case 1: printf(“case 1 \n”); break;
+
+       case 2: printf(“case 2 \n”); 
+
+       case 3: printf(“case 3 \n”);break;
+
+       default: printf(“default case \n”);
+
+      }; 
+
+  Use the code above for all of the questions.
+
+
+1. If i starts off as 1 then printf will print
+
+==> case 1 
+
+ 
+
+2. If i starts out as  15  the printf will print  
+
+==> default case
+
+ 
+
+3. If i starts out as  2   the printf will print
+
+==> case 2 case 3
+
+
+
+
+ 

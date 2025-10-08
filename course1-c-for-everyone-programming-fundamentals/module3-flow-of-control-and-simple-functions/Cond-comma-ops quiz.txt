@@ -1,0 +1,48 @@
+Cond-comma-ops quiz
+
+
+1. Assume i = 1; j = 2;  
+
+n = (i < j);
+
+
+==> n is 1
+
+
+
+2. Assume i = 1; j = 2;  
+
+n = (i == j)? 4:(i < j)?3:5;
+
+
+==> n is 3
+
+
+
+3. Assume i = 1; j = 2;  
+
+n = (i, j);  
+
+
+==> n is 2
+
+
+
+4. Assume i = 1; j = 2;  
+
+n = i, j+1;  
+
+
+==> n is 1
+
+
+
+5. Assume i = 1; j = 2;  
+
+n = (i < j)? 4: 6; 
+
+
+==> n is 4
+
+
+

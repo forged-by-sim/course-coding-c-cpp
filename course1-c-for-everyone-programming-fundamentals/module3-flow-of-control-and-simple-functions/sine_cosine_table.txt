@@ -1,0 +1,26 @@
+Write a C program that has a function that prints a table of values for sine and cosine between (0, 1). Upload your program as a text file. 
+
+
+#include <stdio.h>
+#include <math.h>
+
+void print_sine_cosine_table(double start, double end, double step) {
+    double x;
+
+    printf("x\t\tsin(x)\t\tcos(x)\n");
+    printf("----------------------------------------\n");
+
+    for (x = start; x < end; x += step) {
+        printf("%.2f\t\t%.6f\t%.6f\n", x, sin(x), cos(x));
+    }
+}
+
+int main(void) {
+    double start = 0.1;
+    double end = 1.0;
+    double step = 0.1;
+
+    print_sine_cosine_table(start, end, step);
+
+    return 0;
+}
