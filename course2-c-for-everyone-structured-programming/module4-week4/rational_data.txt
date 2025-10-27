@@ -1,0 +1,10 @@
+2
+9 11
+4 5
+
+
+This would represent:
+
+data[0] = 9/11
+
+data[1] = 4/5

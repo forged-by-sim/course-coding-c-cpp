@@ -1,0 +1,12 @@
+🧠 Homework 5: Full Hex Game Implementation with AI
+Features:
+
+🎮 Interactive Player Input – Choose your color (X or O), input moves by coordinates.
+
+♟️ AI with Monte Carlo Simulation – Simulates 1000+ random plays per available move to pick the best option.
+
+🧠 Win Detection – Uses DFS to evaluate winner after each turn.
+
+📊 Efficient Board Reuse – Does not regenerate boards from scratch for every trial.
+
+🧱 Scalable Board Size – Easily switch from 5×5 to 11×11 by adjusting boardSize.

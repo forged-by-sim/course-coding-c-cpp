@@ -1,0 +1,9 @@
+The task is to:
+
+Create a struct in C to store atomic element data (name, symbol, and weight).
+
+Input the first 10 elements via terminal.
+
+Store them in a linked list.
+
+Print them in a nicely readable format.

@@ -1,0 +1,21 @@
+Requirements
+
+Reads a file that begins with an integer n, followed by 2n integers representing n rational numbers as (numerator, denominator) pairs.
+
+Stores these pairs in an array of structs.
+
+Implements four operations on rational numbers:
+
+Add
+
+Subtract
+
+Multiply
+
+Divide
+
+Produces:
+
+The sum of all rational numbers.
+
+The average of those rational numbers.

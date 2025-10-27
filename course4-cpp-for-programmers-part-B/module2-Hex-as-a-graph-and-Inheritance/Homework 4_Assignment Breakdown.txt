@@ -1,0 +1,23 @@
+The file now includes:
+
+A new HexBoard class that:
+
+Draws the board using ASCII symbols
+
+Accepts player moves (B for Blue, R for Red)
+
+Checks move legality
+
+Detects winning conditions using DFS
+
+
+
+A main function that:
+
+Creates a 7x7 board
+
+Plays sample moves
+
+Prints the board before and after
+
+Checks for a winner

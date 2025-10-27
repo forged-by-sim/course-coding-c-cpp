@@ -1,0 +1,1 @@
+This program uses enums and structs to simulate 10 employees from 5 different departments. Each employee is assigned a department, a random salary based on their department's base salary, and a fake 9-digit SSN. Outputs are printed in a clear, tabular format.

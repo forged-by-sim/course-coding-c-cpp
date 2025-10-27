@@ -1,0 +1,12 @@
+No. | Name       | Sym  | Atomic Weight
+-----------------------------------
+1   | Hydrogen   | H    | 1.008
+2   | Helium     | He   | 4.003
+3   | Lithium    | Li   | 6.941
+4   | Beryllium  | Be   | 9.012
+5   | Boron      | B    | 10.811
+6   | Carbon     | C    | 12.011
+7   | Nitrogen   | N    | 14.007
+8   | Oxygen     | O    | 15.999
+9   | Fluorine   | F    | 18.998
+10  | Neon       | Ne   | 20.180

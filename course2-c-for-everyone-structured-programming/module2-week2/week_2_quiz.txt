@@ -1,0 +1,134 @@
+1. In the struct
+
+struct point{
+double x;
+double y;
+} p1 = { 2.5, 4.0};
+
+
+The value of p1.x is
+==> 2.5
+
+
+2. If we have pointer 
+
+struct point* ptr = &p1;
+
+
+With p1 as
+
+struct point{
+double x;
+double y;
+} p1 = { 2.5, 4.0};
+
+
+Then ptr->y has the value
+==> 4.0
+
+
+3. Which is a basic elementary operation for a stack
+==> Empty
+
+
+4. In the code snippet
+
+struct point{
+double x;
+double y;
+} p1 = { 4, 4.0};
+
+printf("%f\n", p1.x);
+
+
+What gets printed?
+==> 4.000000
+
+
+5. In the code snippet
+
+struct point{
+double x;
+double y;
+} p1 = {2.5, 4.0};
+
+printf("%f\n", p1.x);
+
+
+What gets printed?
+==> 2.500000
+
+
+6. If we have pointer 
+
+struct point* ptr = &p1;
+
+
+With p1 as
+
+struct point{
+double x;
+double y;
+} p1;
+
+
+Then ptr->y has the value
+==> 0.0
+
+
+7. If we have pointer 
+
+struct point* ptr = &p1;
+
+
+With p1 as
+
+struct point{
+double x;
+double y;
+} p1 = {2.5};
+
+
+Then ptr->x has the value
+==> 2.5
+
+
+8. What operation would you use to add something onto a stack?
+==> Push
+
+
+9. If we push all the elements of the array int data[20]; onto a stack – the element at the bottom of the stack is
+==> data[0]
+
+
+10. If we have pointer 
+
+struct point* ptr = &p1;
+
+
+With p1 as
+
+struct point{
+double x;
+double y;
+} p1 = {4, p1.x};
+
+
+Then ptr->y has the value
+==> 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

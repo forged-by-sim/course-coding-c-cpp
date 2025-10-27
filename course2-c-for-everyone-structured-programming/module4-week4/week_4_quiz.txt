@@ -1,0 +1,69 @@
+1. To print \ on the screen in printf use
+==> Another \
+
+
+2. The second argument of fscanf() is
+==> A C string that contains one or more of the following items − Whitespace character, Non-whitespace character and Format specifiers.  
+
+
+3. In the code
+
+while(fscanf(ptr,”%d”,&d[*size]) == 1)
+
+
+Which conditions will terminate the while loop?
+==> fscanf reaches the end of the file pointed to by ptr
+
+
+4. What is the value of argc for the command line arguments
+
+./a.out file-in file-out
+
+==> 3
+
+
+5. Which statement will print "\n" to the screen?
+==> printf("\\n");
+
+
+6. What comes after the second argument of fscanf()?
+==> Any necessary values to be substituted into format specifiers in the second argument
+
+
+7.   -1 represents which value?
+==> end of file (EOF)
+
+
+8. Is the value 
+
+in
+
+
+with a declaration of 
+
+FILE* in;
+
+
+a valid first argument for fscanf?
+
+
+==> Yes, because it is a pointer to a file
+
+
+9. To print %d on the screen use
+==> printf("%%d");
+
+
+10. The value of argc for the command line statement
+
+./a.out in out reversed capitalized
+
+==> 5
+
+
+
+
+
+
+
+

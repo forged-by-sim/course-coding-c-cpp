@@ -1,0 +1,13 @@
+C++ Features Implemented:
+
+Switched from stdio.h to iostream.
+
+Replaced #define with const.
+
+Replaced C-style array with std::vector<int>.
+
+Used C++ I/O (std::cout).
+
+Inlined the sum() function using inline.
+
+Used one-line comments (//) throughout.

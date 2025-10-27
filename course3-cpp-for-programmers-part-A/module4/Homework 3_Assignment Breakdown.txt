@@ -1,0 +1,88 @@
+Homework 2: MST + File-Based Graph Input (Assignment Breakdown)
+
+
+Objective
+
+Extend your Graph ADT to:
+
+Load a graph from a file.
+
+Compute and print the Minimum Spanning Tree (MST) using Prim's algorithm.
+
+Show the total cost of the MST and all edges in the tree.
+
+
+
+File Input Format
+
+The graph is stored in a file with this structure:
+
+<number of nodes>
+i j cost
+i j cost
+...
+
+Each line i j cost defines an undirected edge between node i and node j with a given cost.
+
+
+
+Example (graph_input.txt):
+
+5
+0 1 2.5
+1 2 1.7
+0 3 2.0
+3 4 3.1
+2 4 2.9
+
+
+
+Features to Implement
+1. Constructor to Read from File
+
+Reads number of vertices V
+
+Parses edges and adds them using addEdge(i, j, cost)
+
+2. Prim’s MST Algorithm
+
+Tracks visited vertices
+
+Uses a min-heap (priority queue) to select the next edge with minimum cost
+
+Builds a tree of V-1 edges
+
+Computes total MST cost
+
+Prints each edge in the tree
+
+
+
+Output Format
+
+Minimum Spanning Tree Edges:
+0 - 1 (2.5)
+1 - 2 (1.7)
+0 - 3 (2.0)
+2 - 4 (2.9)
+Total MST Cost: 9.1
+
+
+
+Deliverables
+
+Graph class updated with:
+
+File constructor
+
+computeMST() method
+
+main() that:
+
+Loads from file
+
+Calls MST function
+
+Clean, commented code
+
+(Optional) Random graph generation and average path testing retained for comparison

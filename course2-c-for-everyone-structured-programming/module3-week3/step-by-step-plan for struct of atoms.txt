@@ -1,0 +1,95 @@
+Step 1: Define the struct
+
+
+typedef struct Element {
+    char name[20];
+    char symbol[5];
+    float atomicWeight;
+    struct Element* next;
+} Element;
+
+
+Step 2: Function to create a new element node
+
+
+Element* createElement(const char* name, const char* symbol, float weight) {
+    Element* newElement = (Element*)malloc(sizeof(Element));
+    strcpy(newElement->name, name);
+    strcpy(newElement->symbol, symbol);
+    newElement->atomicWeight = weight;
+    newElement->next = NULL;
+    return newElement;
+}
+
+
+Step 3: Function to add node to the end of the linked list 
+
+
+void appendElement(Element** head, const char* name, const char* symbol, float weight) {
+    Element* newElement = createElement(name, symbol, weight);
+    if (*head == NULL) {
+        *head = newElement;
+        return;
+    }
+
+    Element* temp = *head;
+    while (temp->next != NULL)
+        temp = temp->next;
+
+    temp->next = newElement;
+}
+
+
+Step 4: Function to print the elements 
+
+
+void printElements(Element* head) {
+    printf("\n%-3s | %-10s | %-4s | %s\n", "No.", "Name", "Sym", "Atomic Weight");
+    printf("-----------------------------------\n");
+
+    int count = 1;
+    while (head != NULL) {
+        printf("%-3d | %-10s | %-4s | %.3f\n", count++, head->name, head->symbol, head->atomicWeight);
+        head = head->next;
+    }
+}
+
+
+Step 5: Main function
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main() {
+    Element* head = NULL;
+    char name[20], symbol[5];
+    float weight;
+
+    printf("Enter data for 10 atomic elements (name, symbol, weight):\n");
+    for (int i = 0; i < 10; i++) {
+        printf("\nElement #%d\n", i + 1);
+        printf("Name: ");
+        scanf("%s", name);
+        printf("Symbol: ");
+        scanf("%s", symbol);
+        printf("Atomic Weight: ");
+        scanf("%f", &weight);
+
+        appendElement(&head, name, symbol, weight);
+    }
+
+    printElements(head);
+
+    // Free memory
+    Element* temp;
+    while (head != NULL) {
+        temp = head;
+        head = head->next;
+        free(temp);
+    }
+
+    return 0;
+}
+

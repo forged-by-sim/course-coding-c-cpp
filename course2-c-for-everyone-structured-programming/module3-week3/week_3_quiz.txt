@@ -1,0 +1,87 @@
+1. The C library function malloc()
+==> returns a pointer
+
+
+2. The code
+
+while(h != NULL) {
+…
+}
+
+
+Is typical for:
+==> Processing a list
+
+
+3.
+void concat(list* h1, list* h2)
+as described concatenates two lists. If list h1 has n elements and list h2 has m elements where m > n,  then concatenation takes approximately proportional to list lengths
+==> n 
+
+
+4. A complete binary tree of depth 5 would have
+==> 32 leaf nodes
+
+
+5. The code
+
+void postorder(BTREE root)
+{
+    if (root != NULL) {
+        postorder(root -> left);
+        postorder(root -> right);
+        printf(“%c “, root -> d);
+    }
+}
+
+
+==> Is recursive
+
+
+6. The C library function calloc()
+==> sets memory to 0 
+
+
+7. The code
+
+while(h != NULL) {
+…
+}
+
+
+is not ideal when:
+==> h can never equal to NULL
+
+
+8.
+void concat(list* h1, list* h2)
+as described concatenates two lists. If list h1 has n elements and list h2 has m elements where m < n,  then concatenation takes approximately proportional to list lengths
+==> n 
+
+
+9. A complete binary tree of depth 8 would have
+==> 256
+
+
+10. The code
+
+void postorder(BTREE root)
+{
+    if (root != NULL) {
+        postorder(root -> left);
+        postorder(root -> right);
+        printf(“%c “, root -> d);
+    }
+}
+
+
+==> Will make no change to a given BTREE object
+
+
+
+
+
+
+
+
+

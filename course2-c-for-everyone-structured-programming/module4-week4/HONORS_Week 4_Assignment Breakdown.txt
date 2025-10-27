@@ -1,0 +1,19 @@
+Requirements (Honors Version)
+
+Input: File starts with one integer n, followed by n integer values.
+
+Example: 4 9 11 4 5 → n = 4, data = 9 11 4 5
+
+So the array would be: data[0] = 9, data[1] = 11, etc.
+
+Binary Tree:
+
+Insert all elements from the array into a Binary Search Tree (BST).
+
+Inorder Traversal:
+
+Traverse the tree inorder (Left, Root, Right) and print values.
+
+Output:
+
+Display the sorted list from the BST.

@@ -1,0 +1,19 @@
+C++ implementation for the Graph ADT with Dijkstra's Algorithm and Monte Carlo Simulation is ready and structured in a clean, modular way using:
+
+Adjacency list for efficient sparse graph handling (chosen due to memory and lookup performance at moderate densities like 0.2 and 0.4).
+
+OOP design with clear separation between:
+
+Graph: storage and connections
+
+Dijkstra: shortest path algorithm
+
+GraphSimulator: random graph generation and metric calculations
+
+The program:
+
+Builds a graph of 50 nodes.
+
+Randomly generates edges with density 20% and 40%.
+
+Computes and prints the average shortest path from node 0 to all other nodes for each density.

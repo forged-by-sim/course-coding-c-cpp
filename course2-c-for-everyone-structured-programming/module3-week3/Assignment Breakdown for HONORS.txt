@@ -1,0 +1,11 @@
+Assignment Breakdown
+
+Use a doubly linked list.
+
+Populate it with 200 random integers between 0–49.
+
+Remove duplicates from the list using one of two methods:
+
+Method A (Sorting + Adjacent removal) ---> (we’ll do this one for efficiency)
+
+Method B (Brute force compare each node)

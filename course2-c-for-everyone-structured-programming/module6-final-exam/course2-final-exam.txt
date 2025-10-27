@@ -1,0 +1,173 @@
+
+1. True: Switch is a keyword   
+
+
+2. False: printf is a keyword  
+
+
+3. False: ||  is the address operator  
+
+
+4. False: EOF is a keyword  
+
+
+5. False: malloc is an operator
+
+
+6. 
+typedef enum choices { left, left_center = 2, right_center, right = 5 } choices;
+
+The enumerator left has what value? 0
+
+The enumerator right_center has what value? 3
+
+
+7.
+#include<stdio.h> 
+int main() 
+{ 
+ int a = 2, b = 5, c = 8; 
+ printf(" a && b = %d \n ", a && b); 
+ printf(" b %% a = %d \n ", b % a ); 
+ printf(" a / b = %d \n " , a/b); 
+ printf(" 2 * a + 1 < b = %d \n ", 2*a + 1 < b); 
+ printf(" b <= c = %d \n " , b<= c);
+
+
+8. For the code above, what is the value of the format specifier corresponding to the print statement " a && b =  "
+Result: 1
+
+
+9. For the code above, what is the value of the format specifier corresponding to the print statement " b % a =   "
+Result: 1
+
+
+10. For the code above, what is the value of the format specifier corresponding to the print statement " a /  b =  "
+Result: 0
+
+
+11. For the code above, what is the value of the format specifier corresponding to the print statement " 2 * a + 1 < b = "
+Result: 0
+
+
+12. For the code above, what is the value of the format specifier corresponding to the print statement "  b <= c    =  "
+Result: 1
+
+
+13. For the code above, what is the value of the format specifier corresponding to the print statement "  !!c  ="
+Result: 1
+
+
+14. For the code above, what is the value of the format specifier corresponding to the print statement "  c > 2 && a > 6 = "
+Result: 0
+
+
+15.  For the code above, what is the value of the format specifier corresponding to the print statement "  b == 2 || a != 4 ="
+Result: 1
+
+
+16.  For the code above, what is the value of the format specifier corresponding to the print statement " (a + b) * c-- ="
+Result: 56
+
+
+
+17. For the code above, what is the value of the format specifier corresponding to the print statement " c = ++b    = "
+Result: 6
+
+
+18. The sqrt() function returns?
+Answer: double
+
+
+
+19. The rand() function is declared in?
+Answer: <stdlib.h>
+
+
+20. The malloc() function returns?
+Answer: void *
+
+
+21. The array declaration double data[5][4]; will allocate storage for?
+Answer: 20 doubles
+
+
+22. 
+enum myfoods { butter = 2, milk = 5, cheese = 8, eggs };
+
+eggs is the int value 
+Answer: 9
+
+
+
+23. 
+struct complex { 
+    double real;  
+    double imaginary;
+} c1 = { 1.5, -2.0 }, c2; 
+
+struct complex *ptr_c = &c1;
+
+Answer: ptr_c->real 
+
+
+
+24. The precedence of the operator -> is?
+Answer: higher than all of these
+
+
+
+25. To find the kth element in an array versus kth element in a linear list:
+
+Answer: the array element look-up is faster by approximately some proportion to k
+
+
+
+26. 
+
+int mystery(LINK head)
+{
+    if (head == NULL)
+        return 0;
+    else
+        return (1 + count(head -> next));
+}
+
+
+Answer: counts the elements of a list
+
+
+
+27. 
+
+FILE *ofp;
+fopen("temp", "w+");
+
+
+Answer: temp is a file in the local directory
+
+
+
+28. Who created C++? 
+Answer: Stroustrup
+
+
+
+29. In C++ which keyword has a significantly different meaning than in C?
+Answer: auto
+
+
+
+30.
+In the conversion specification 
+%6lf 
+The 6 means
+
+Answer: field width is 6 
+
+
+
+
+
+
+

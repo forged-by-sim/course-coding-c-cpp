@@ -1,0 +1,52 @@
+1. True/False: C is almost a small subset of C++.
+==> True
+
+
+2. In C the code
+
+printf(“\n”);
+
+
+would be replaced by which option in C++?
+==> cout << endl;
+
+
+3. Which of these has the same meaning in C++ and C?
+==> main()
+
+
+4. In C++ what allows both member and private functions?
+==> Class
+
+
+5. True or False: C compilers can compile C++ code
+==> False
+
+
+6. True or False: C++ was designed by Dennis Ritchie
+==> False 
+
+
+7. How do you print in C++?
+==> cout <<
+
+
+8. Which of these has different meanings in C++ and C
+==> cout
+
+
+9. In C the code
+
+printf(“Hello World”);
+
+
+would be replaced by which option in C++?
+==> cout << "Hello World";
+
+
+10. True/False: C++ was invented before C
+==> False 
+
+
+
+

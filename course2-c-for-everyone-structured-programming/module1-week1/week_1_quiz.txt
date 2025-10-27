@@ -1,0 +1,8 @@
+1. What is the value of false in the following enum declaration:
+
+1  enum fuzzy_logic{ false, true, maybe};
+
+==> None of the above
+
+
+2. 

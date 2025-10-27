@@ -1,0 +1,2 @@
+Sum of rationals = 119/55
+Average of rationals = 119/110

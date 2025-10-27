@@ -1,0 +1,189 @@
+FOR QUESTIONS 1-5 REFER TO THE FOLLOWING VARIABLES AND INITIALIZATIONS:
+
+   int a = 2, b = -3, c = 2; 
+
+   bool tval1 = false, tval2 = true;
+
+   char ch = ‘b’;
+
+Assume each evaluation is legal and occurs immediately after this declaration.
+
+What is the value of the following expression? 
+
+b + c * a
+
+Answer:
+
+c % 5/2
+
+Answer:
+
+-a * c++
+
+Answer:
+
+tval1 && tval2
+
+Answer: 
+
+ch += 2
+
+Answer:
+
+
+6. What did D. Ritchie do?
+==> invented C
+
+
+7. What did B. Stroustrup do?
+==> invented C++
+
+
+8. What did E. Dijkstra invent?
+==> shortest path algorithm
+
+
+9. What did L. Euler invent? 
+==> graph theory
+
+
+10. printin is a keyword in C++11.
+==> False
+
+
+11. In the expression f(1) || (!g(2)), and without knowing the return types of f(1) and g(2), you can still assert that f(1) will always be evaluated before g(2) (which may not get evaluated at all). 
+==> True 
+
+
+
+FOR QUESTIONS 12–16 REFER TO THE FOLLOWING:
+
+Answer number that is returned by mystery() for each answer in printout.
+
+//templates what gets printed
+
+#include <iostream>
+
+using namespace std;
+
+template <class T1, class T2>
+
+int mystery(T1& a, T2 b, int c)
+
+{
+
+      T1 t = a;
+
+      a = a + b;
+
+      return ( a - t + c);
+
+}
+int main(void)
+
+{
+
+      int a = 3;
+
+      double b = 2.5;
+
+      int c = 1;
+
+      cout << " answer 1 is  " << mystery(a, 2, c) << endl;
+
+      cout << " answer 2 is  " << mystery(a, 1, c) << endl;
+
+      a = 5;
+
+      cout << " answer 3 is  " << mystery(a, b, c) << endl;
+
+      a = 2; 
+
+      b = 2.5;
+
+      cout << " answer 4 is  " << mystery(a, b, b) << endl;
+
+      cout << " answer 5 is  " << mystery(a,mystery(a, b, b),c)<< endl;
+
+      return 0;
+
+}
+
+
+
+Answer 1 is 3
+
+Answer 2 is 2
+
+Answer 3 is 3.5
+
+Answer 4 is 5
+
+Answer 5 is 6
+
+
+
+
+
+
+
+FOR QUESTIONS 20–24 REFER TO THE FOLLOWING:
+
+ //What does the following print
+
+#include <iostream>
+
+    #include <vector>
+
+    #include <numeric>
+
+    using namespace std;
+
+int main()
+
+    {
+
+        vector<int> data(5,1);
+
+        int sum {0};
+
+    cout << sum << endl;
+
+        for(auto element : data)
+
+             sum += element;
+
+        cout << sum << endl;
+
+    for(auto p = ++data.begin(); p != --data.end(); ++p)
+sum += *p;
+
+        cout << sum << endl;
+
+        sum = 0;
+
+        data.push_back(2);
+
+        data.push_back(3);
+
+        for(auto element : data)
+
+             sum += element;
+
+        cout << sum << endl;
+
+    cout << accumulate(data.begin(), data.end(), data[0]) << endl;
+
+    }
+
+
+
+What does the first line print? 0
+
+What does the second line print? 5
+
+What does the third line print? 8
+
+What does the fourth line print? 10
+
+What does the fifth line print? 11
